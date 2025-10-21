@@ -2,7 +2,7 @@
 
 A comprehensive framework for learning physical parameters and solutions of partial differential equations (PDEs) using hybrid physics-neural network models. This repository implements both **static** (steady-state) and **dynamic** (time-dependent) PDE solvers with various training strategies including Physics-Informed Neural Networks (PINNs), Finite Element Method (FEM), and novel hybrid consistency approaches.
 
-## 🔬 Overview
+## Overview
 
 HYCO (Hybrid Consistency) combines physics-based models with neural networks to solve inverse problems in PDEs. The key innovation is the **hybrid consistency loss** that enforces agreement between physics-based and data-driven components, enabling robust parameter estimation even with sparse or noisy data.
 
@@ -14,7 +14,7 @@ HYCO (Hybrid Consistency) combines physics-based models with neural networks to 
 - **Flexible Architectures**: JAX/Flax for static problems, PyTorch for dynamic systems
 - **Comprehensive Benchmarking**: Compare PINN, FEM, and hybrid approaches
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 HYCO-Code/
@@ -65,7 +65,7 @@ HYCO-Code/
 └── .gitignore               # Git ignore file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -140,7 +140,7 @@ cd DynamicHYCO/Heat
 python MAIN.py
 ```
 
-## 🧪 Experiments
+## Experiments
 
 ### StaticHYCO: Steady-State Inverse Problems
 
@@ -173,7 +173,7 @@ python MAIN.py
 - **Goal**: Learn spatially-varying thermal conductivity `κ(x,y)`
 - **Experiments**: Training with full, half, and quarter datasets
 
-## 📊 Results and Outputs
+## Results and Outputs
 
 ### Generated Files
 
@@ -189,7 +189,7 @@ python MAIN.py
 3. **Error Analysis**: L2 errors, pointwise errors, parameter errors
 4. **Consistency Plots**: Agreement between physics and neural components
 
-## 🔧 Configuration
+## Configuration
 
 ### StaticHYCO Configuration
 
@@ -221,7 +221,7 @@ training_params = {
 }
 ```
 
-## 📖 Key Concepts
+## Key Concepts
 
 ### Hybrid Consistency Training
 
@@ -246,46 +246,3 @@ Where:
 2. **PINN**: Neural network with physics-informed loss
 3. **Hybrid**: Combined physics + neural with consistency enforcement
 
-### Advantages of Hybrid Approach
-
-- **Robustness**: Better generalization with limited data
-- **Interpretability**: Learned physical parameters have clear meaning
-- **Efficiency**: Physics constraints guide neural network training
-- **Flexibility**: Can handle model misspecification via neural correction
-
-## 📚 Publications
-
-This code implements methods from research on hybrid physics-neural models for inverse problems. Key concepts include:
-
-- Physics-informed machine learning
-- Parameter estimation in PDEs
-- Hybrid modeling strategies
-- Finite element methods with neural networks
-
-## 🤝 Contributing
-
-Contributions are welcome! Areas for improvement:
-- Additional PDE systems
-- New neural architectures
-- Optimization strategies
-- Documentation and examples
-
-## 📝 License
-
-[Add your license information here]
-
-## 🙏 Acknowledgments
-
-This project uses:
-- [JAX](https://github.com/google/jax) - High-performance numerical computing
-- [Flax](https://github.com/google/flax) - Neural network library for JAX
-- [PyTorch](https://pytorch.org/) - Deep learning framework
-- Finite element methods for physics-based solvers
-
-## 📧 Contact
-
-[Add your contact information here]
-
----
-
-**Note**: This is research code. While we strive for correctness and reproducibility, some experimental features may require tuning for your specific use case.
