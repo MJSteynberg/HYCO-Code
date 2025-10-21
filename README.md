@@ -1,4 +1,4 @@
-# HYCO: Hybrid Consistency Models for Parameter Estimation in PDEs
+# HYCO: Hybrid-Cooperative Models for Parameter Estimation in PDEs
 
 A comprehensive framework for learning physical parameters and solutions of partial differential equations (PDEs) using hybrid physics-neural network models. This repository implements both **static** (steady-state) and **dynamic** (time-dependent) PDE solvers with various training strategies including Physics-Informed Neural Networks (PINNs), Finite Element Method (FEM), and novel hybrid consistency approaches.
 
