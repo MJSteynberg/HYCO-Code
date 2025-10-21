@@ -4,7 +4,7 @@ A comprehensive framework for learning physical parameters and solutions of part
 
 ## Overview
 
-HYCO (Hybrid Consistency) combines physics-based models with neural networks to solve inverse problems in PDEs. The key innovation is the **hybrid consistency loss** that enforces agreement between physics-based and data-driven components, enabling robust parameter estimation even with sparse or noisy data.
+HYCO (Hybrid-Cooperative) combines physics-based models with neural networks to solve inverse problems in PDEs. The key innovation is the **hybrid consistency loss** that enforces agreement between physics-based and data-driven components, enabling robust parameter estimation even with sparse or noisy data.
 
 ### Key Features
 
