@@ -1,0 +1,11 @@
+FEM Loss min in last 100: 0.06859088
+Hybrid Phys Loss min in last 100: 0.09655782
+Hybrid Syn Loss min in last 100: 0.096815236
+PINN Loss min in last 100: 0.114838995
+FEM Loss final: 0.06859087944030762
+Hybrid Phys Loss final: 0.09655781835317612
+Hybrid Syn Loss final: 0.10328087210655212
+PINN Loss final: 0.11642512679100037
+FEM Final Param Error: 0.42139798
+Hybrid Final Param Error: 0.43721652
+PINN Final Param Error: 0.78959733

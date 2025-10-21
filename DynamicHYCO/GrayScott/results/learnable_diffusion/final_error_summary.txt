@@ -1,0 +1,21 @@
+=== Final Error Summary ===
+epoch: 2999
+mse_normalized: 7.252620e-01
+mse_physical: 0.05162283033132553
+l2_norm_error: 8.548203e-01
+l2_norm_u: 7.419478e-01
+l2_norm_v: 9.543279e-01
+parameter_error: 1.345178e+00
+du_error: 9.500475e-01
+dv_error: 9.523203e-01
+f_error: 4.304778e-08
+k_error: 1.869949e-08
+physics_loss: 1.495341e-04
+data_loss: 2.492966e-02
+ic_loss: 7.348613e-06
+bc_loss: 0.000000e+00
+total_loss: 2.580670e-02
+u_mse: 0.04119708016514778
+v_mse: 0.010425752028822899
+u_relative_error: 0.7419567704200745
+v_relative_error: 0.9543287754058838
